@@ -33,6 +33,7 @@ Para executar a aplicação, execute os seguintes passos:
       $ npm install
     ~~~
   - Executar a aplicação:
+    Na primeira execução da aplicação, tirar o comentário da linha [// InitDB.initDDL()](https://github.com/danielsantosoliveira/IF_BACK-END/blob/d17190e65e090a7c79fb6eb45095289d98a94f23/Lista03/main.js#L14) do arquivo main.js, para gerar as tabelas do SGBD.
     ~~~shellscript
       $ node main.js 
     ~~~
